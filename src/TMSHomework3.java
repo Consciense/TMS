@@ -11,8 +11,8 @@ public class TMSHomework3{
     public static void solveTask1() {
         System.out.println("Task 1: \n Input your number...");
         Scanner line = new Scanner(System.in);
-        int i = line.nextInt();
-        if (i % 2 == 0) {
+        int inputLine = line.nextInt();
+        if (inputLine % 2 == 0) {
             System.out.println("Your number is even...");
         } else {
             System.out.println("Your number is odd...");
@@ -21,8 +21,8 @@ public class TMSHomework3{
 
     public static void solveTask2() {
         System.out.println("Task 2: \n Input outdoor temperature...");
-        Scanner line = new Scanner(System.in);
-        int outdoorTemperature = line.nextInt();
+        Scanner inputLine = new Scanner(System.in);
+        int outdoorTemperature = inputLine.nextInt();
         if (outdoorTemperature > -5) {
             System.out.println("Warm...");
         } else if (outdoorTemperature > -20) {
@@ -34,8 +34,8 @@ public class TMSHomework3{
 
     public static void solveTask3() {
         System.out.println("Task 3:");
-        for (int i = 10; i <= 20; i++) {
-            System.out.print(i*i + " ");
+        for (int counter = 10; counter <= 20; counter++) {
+            System.out.print(counter*counter + " ");
         }
     }
 

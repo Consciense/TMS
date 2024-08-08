@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Added branch for next task">
-      <change afterPath="$PROJECT_DIR$/src/TMSHomework3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMSHomework.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task6.java" beforeDir="false" />
-    </list>
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Loading solution to the homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,12 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723053727215</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Loading solution to the homework">
+      <option name="closed" value="true" />
+      <created>1723054040065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723054040065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deleting comments" />
     <MESSAGE value="Added branch for next task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added branch for next task" />
+    <MESSAGE value="Loading solution to the homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading solution to the homework" />
   </component>
 </project>
