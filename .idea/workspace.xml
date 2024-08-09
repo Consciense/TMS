@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Loading solution to the homework" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Fixed names">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,26 +22,26 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Consciense"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Consciense&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Consciense/TMS.git",
-    "accountId": "26c92f87-cc4c-4124-bcb1-9af354c89976"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Consciense/TMS.git&quot;,
+    &quot;accountId&quot;: &quot;26c92f87-cc4c-4124-bcb1-9af354c89976&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2kLBz41R1dOKJwza3kFbV9AK4IE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,8 +53,9 @@
     "Application.TMSHomework.executor": "Run",
     "Application.TMSHomework3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Lesson3",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "Lesson4",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mrjj9/IdeaProjects/HeadFirstJava"
   }
 }]]></component>
   <component name="RunManager" selected="Application.TMSHomework3">
@@ -110,13 +113,22 @@
       <option name="project" value="LOCAL" />
       <updated>1723054040065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed names">
+      <option name="closed" value="true" />
+      <created>1723135725429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723135725429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deleting comments" />
     <MESSAGE value="Added branch for next task" />
     <MESSAGE value="Loading solution to the homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loading solution to the homework" />
+    <MESSAGE value="Fixed names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed names" />
   </component>
 </project>
