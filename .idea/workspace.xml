@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Fixed names">
-      <change afterPath="$PROJECT_DIR$/src/TMSHomework4.java" afterDir="false" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Loading solution to the homework">
+      <change afterPath="$PROJECT_DIR$/src/TMSHomework5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson3" />
+        <entry key="$PROJECT_DIR$" value="Lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,15 +54,13 @@
     "Application.TMSHomework.executor": "Run",
     "Application.TMSHomework3.executor": "Run",
     "Application.TMSHomework4.executor": "Run",
-    "Application.test.executor": "Run",
+    "Application.TMSHomework5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Lesson4",
-    "kotlin-language-version-configured": "true",
-    "last.edited.regexp": "Sample Text",
-    "last_opened_file_path": "C:/Users/mrjj9/IdeaProjects/HeadFirstJava"
+    "git-widget-placeholder": "Lesson5",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TMSHomework4">
+  <component name="RunManager" selected="Application.TMSHomework5">
     <configuration name="TMSHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TMSHomework" />
       <module name="TMS" />
@@ -84,6 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TMSHomework5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMSHomework5" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="TMS" />
@@ -93,10 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TMSHomework5" />
         <item itemvalue="Application.TMSHomework4" />
-        <item itemvalue="Application.test" />
         <item itemvalue="Application.TMSHomework3" />
         <item itemvalue="Application.TMSHomework" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -133,23 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723054040065</updated>
     </task>
-    <task id="LOCAL-00004" summary="Fixed names">
-      <option name="closed" value="true" />
-      <created>1723135725429</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1723135725429</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deleting comments" />
     <MESSAGE value="Added branch for next task" />
     <MESSAGE value="Loading solution to the homework" />
-    <MESSAGE value="Fixed names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading solution to the homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
