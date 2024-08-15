@@ -85,6 +85,11 @@ public class TMSHomework4 {
     }
 
     public static void solveTask7(int[] array) {
+        System.out.println("If your array has negative values they will be replaced with theirs modules...");
+        for (int counter = 0; counter < array.length; counter++) {
+            if (array[counter] < 0)
+                array[counter] = Math.abs(array[counter]);
+        }
         String stringFromArray = Arrays.toString(array);
         stringFromArray = stringFromArray.replaceAll("\\[", "").replaceAll("]", "").
                 replaceAll(",", "").replaceAll(" ", "");
@@ -93,10 +98,10 @@ public class TMSHomework4 {
         System.out.println("New number is: " + intFromArray);
         int arrayLength = Integer.toString(intFromArray).length();
         int[] newArray = new int[Integer.toString(intFromArray).length()];
-        for(int counter = 0; intFromArray != 0; counter++){
-            newArray[arrayLength-1-counter] = intFromArray % 10;
+        for (int counter = 0; intFromArray != 0; counter++) {
+            newArray[arrayLength - 1 - counter] = intFromArray % 10;
             intFromArray /= 10;
-       }
+        }
         System.out.println("New array is:");
         for (int arrayElement : newArray) {
             System.out.print(arrayElement + " ");
