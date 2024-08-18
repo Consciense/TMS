@@ -42,7 +42,7 @@ public class GuessWordGame {
             showWord(hiddenWord);
             numberOfUserLetters = doAttemptToGuess(arrayFromOriginal, hiddenWord, arrayOfGuesses, numberOfUserLetters);
             if (numberOfUserLetters == -1){
-                System.out.println("Yes!");
+                showEndGameMessage(true);
                 return;
             }
         }
@@ -60,12 +60,12 @@ public class GuessWordGame {
             showWord(hiddenWord);
             numberOfUsedLetters = doAttemptToGuess(arrayFromOriginal, hiddenWord, arrayOfGuesses, numberOfUsedLetters);
             if (numberOfUsedLetters == -1){
-                System.out.println("Yes!");
+                showEndGameMessage(true);
                 return;
             }
             numberOfUsedLetters = doAIAttempt(arrayFromOriginal, hiddenWord, arrayOfGuesses, numberOfUsedLetters);
             if (numberOfUsedLetters == -2){
-                System.out.println("AI Wins!");
+                showEndGameMessage(false);
                 return;
             }
         }
@@ -136,7 +136,7 @@ public class GuessWordGame {
                 guessedLetters++;
             }
         }
-        System.out.println((guessedLetters == 0) ? "There is no such letter...": "That's right, there's a letter");;
+        System.out.println((guessedLetters == 0) ? "There is no such letter...": "That's right, there's a letter");
     }
 
     public static String[] chooseWord() {
@@ -144,7 +144,7 @@ public class GuessWordGame {
         while (true) {
             userChoice = getUserInput("Input 1 to get your own word or 2 if you want to get a random one.").nextInt();
             if (userChoice != 1 && userChoice != 2) {
-                System.out.println(userChoice + " is not an option...");;
+                System.out.println(userChoice + " is not an option...");
             } else if (userChoice == 1) {
                 return guessYourOwnWord();
             } else {
