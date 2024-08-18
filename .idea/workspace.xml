@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Fixed negative input for the last task">
-      <change afterPath="$PROJECT_DIR$/src/ATMMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TMSHomework6.java" afterDir="false" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="deleted warnings">
+      <change afterPath="$PROJECT_DIR$/src/GuessWordGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ATMMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TMSHomework6.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson4" />
+        <entry key="$PROJECT_DIR$" value="Lesson6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,17 +54,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GuessWordGame.executor": "Run",
     "Application.TMSHomework.executor": "Run",
     "Application.TMSHomework3.executor": "Run",
     "Application.TMSHomework4.executor": "Run",
     "Application.TMSHomework5.executor": "Run",
-    "Application.TMSHomework6.executor": "Debug",
+    "Application.TMSHomework6.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Lesson6",
+    "git-widget-placeholder": "GuessWordGame",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TMSHomework6">
+  <component name="RunManager" selected="Application.GuessWordGame">
+    <configuration name="GuessWordGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessWordGame" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TMSHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TMSHomework" />
       <module name="TMS" />
@@ -92,20 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="TMS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessWordGame" />
         <item itemvalue="Application.TMSHomework6" />
         <item itemvalue="Application.TMSHomework4" />
         <item itemvalue="Application.TMSHomework3" />
         <item itemvalue="Application.TMSHomework" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723736070536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solved homework for lesson 6">
+      <option name="closed" value="true" />
+      <created>1723974592837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723974592837</updated>
+    </task>
+    <task id="LOCAL-00006" summary="deleted warnings">
+      <option name="closed" value="true" />
+      <created>1723974668919</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723974668919</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,7 +176,9 @@
     <MESSAGE value="Added branch for next task" />
     <MESSAGE value="Loading solution to the homework" />
     <MESSAGE value="Fixed negative input for the last task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed negative input for the last task" />
+    <MESSAGE value="Solved homework for lesson 6" />
+    <MESSAGE value="deleted warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted warnings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -167,11 +187,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ATMMachine.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
