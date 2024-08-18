@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 public class ATMMachine {
     int[] banknotes = new int[3];
     // banknotes[0] - banknotes of 20
@@ -43,7 +41,6 @@ public class ATMMachine {
     }
 
     public int[] calculateBanknotesToGiveOut(int withdrawalAmount) {
-        int remainingSum;
         int[] banknotes = new int[]{0, 0, 0};
         // banknotes[0] - banknotes of 20
         // banknotes[1] - banknotes of 50
