@@ -2,7 +2,17 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+
+
 public class GuessWordGame {
+
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_GREEN = "\u001B[32m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+    public static final String ANSI_PURPLE = "\u001B[35m";
+    public static final String ANSI_CYAN = "\u001B[36m";
+
     public static void main(String[] args) {
         startGame();
     }
@@ -12,10 +22,10 @@ public class GuessWordGame {
 
         showGreetingMessage();
         while (true) {
-            userChoice = getUserInput("Enter 1 to start playing solo and 2 if you want to test yourself" +
+            userChoice = getUserInput( ANSI_RESET + "Enter 1 to start playing solo and 2 if you want to test yourself" +
                                                     " against THE GREATEST AI. Enter 0 to leave peacefully").nextInt();
             if (userChoice != 1 && userChoice != 2 && userChoice != 0) {
-                System.out.println(userChoice + " is not an option...");
+                System.out.println(ANSI_RED + userChoice + " is not an option...");
                 continue;
             }
             if (userChoice == 0)
@@ -38,7 +48,8 @@ public class GuessWordGame {
 
         Arrays.fill(arrayOfGuesses, '0');
         while (true){
-            System.out.println(riddledWord[1]);
+            System.out.println(ANSI_RESET + "-------------------------------------------------------------------");
+            System.out.println(ANSI_GREEN + riddledWord[1]);
             showWord(hiddenWord);
             numberOfUserLetters = doAttemptToGuess(arrayFromOriginal, hiddenWord, arrayOfGuesses, numberOfUserLetters);
             if (numberOfUserLetters == -1){
@@ -56,7 +67,8 @@ public class GuessWordGame {
 
         Arrays.fill(arrayOfGuesses, '0');
         while (true){
-            System.out.println(riddledWord[1]);
+            System.out.println(ANSI_RESET + "-------------------------------------------------------------------");
+            System.out.println(ANSI_GREEN + riddledWord[1]);
             showWord(hiddenWord);
             numberOfUsedLetters = doAttemptToGuess(arrayFromOriginal, hiddenWord, arrayOfGuesses, numberOfUsedLetters);
             if (numberOfUsedLetters == -1){
@@ -76,7 +88,7 @@ public class GuessWordGame {
         while (isEnteredBefore((char) attempt, arrayOfGuesses)){  //
             attempt = new Random().nextInt(97, 123);
         }
-        System.out.println("AI thinks there is a letter: " + (char) attempt);
+        System.out.println(ANSI_CYAN + "AI thinks there is a letter: " + (char) attempt);
         arrayOfGuesses[numberOfUsedLetters] = (char) attempt;
         checkGuess(arrayFromOriginal, hiddenWord, (char) attempt);
         if(Arrays.equals(arrayFromOriginal, hiddenWord)){
@@ -90,13 +102,13 @@ public class GuessWordGame {
         String userInput;
         char userGuess;
 
-        userInput = getUserInput("Enter a letter to make a guess or enter a whole word if you ready: ").nextLine();
+        userInput = getUserInput(ANSI_RESET + "Enter a letter to make a guess or enter a whole word if you ready: ").nextLine();
         if (userInput.isEmpty()) {
-            System.out.println("You have to enter something to start play.");
+            System.out.println(ANSI_RED + "You have to enter something to start play.");
         } else if (userInput.length() == 1) {
             userGuess = userInput.charAt(0);
             if (isEnteredBefore(userGuess, arrayOfGuesses)){
-                System.out.println("This letter was entered before!");
+                System.out.println(ANSI_RED + "This letter was entered before!");
                 return numberOfUserLetters;
             }
             arrayOfGuesses[numberOfUserLetters] = userGuess;
@@ -110,7 +122,7 @@ public class GuessWordGame {
             if (Arrays.equals(arrayFromOriginal, userInput.toCharArray())) {
                 return -1;
             } else {
-                System.out.println("No! The hidden word is not a " + userInput + ". Try again...");
+                System.out.println(ANSI_RED + "No! The hidden word is not a " + userInput + ". Try again...");
             }
         }
         return numberOfUserLetters;
@@ -136,15 +148,15 @@ public class GuessWordGame {
                 guessedLetters++;
             }
         }
-        System.out.println((guessedLetters == 0) ? "There is no such letter...": "That's right, there's a letter");
+        System.out.println((guessedLetters == 0) ? ANSI_RED + "There is no such letter...": ANSI_PURPLE +"That's right, there's a letter");
     }
 
     public static String[] chooseWord() {
         int userChoice;
         while (true) {
-            userChoice = getUserInput("Input 1 to get your own word or 2 if you want to get a random one.").nextInt();
+            userChoice = getUserInput(ANSI_RESET + "Input 1 to get your own word or 2 if you want to get a random one.").nextInt();
             if (userChoice != 1 && userChoice != 2) {
-                System.out.println(userChoice + " is not an option...");
+                System.out.println(ANSI_RED + userChoice + " is not an option...");
             } else if (userChoice == 1) {
                 return guessYourOwnWord();
             } else {
@@ -157,9 +169,9 @@ public class GuessWordGame {
         String[] userWord = new String[2];
         while (true) {
             userWord[1] = "A word you've riddled";
-            userWord[0] = getUserInput("Enter a word (Only lowercase letters): ").nextLine();
+            userWord[0] = getUserInput(ANSI_RESET + "Enter a word (Only lowercase letters): ").nextLine();
             if (userWord[0].isEmpty()) {
-                System.out.println("You have to enter a word to start game.");
+                System.out.println(ANSI_RED + "You have to enter a word to start game.");
                 continue;
             }
             if (isSingleWord(userWord[0])) {
@@ -173,7 +185,7 @@ public class GuessWordGame {
         char[] arrayFromWord = word.toCharArray();
         for (char letter : arrayFromWord){
             if((int) letter < 97 || (int) letter > 122){
-                System.out.println("Incorrect input...");
+                System.out.println(ANSI_RED + "Incorrect input...");
                 return false;
             }
         }
@@ -184,9 +196,11 @@ public class GuessWordGame {
         // String[i][0] - word
         // String[i][1] - its description to guess
         String[][] pullOfWordsToGuess = new String[][]{
-                {"banana", "Yellow and long "},
-                {"grape", " виноград)))"},
-                {"apple", " iphone"}
+                {"banana", "Yellow and long"},
+                {"melon", "Big round and yellow"},
+                {"apple", "Round, grows on tries, cam be yellow, green or red "},
+                {"lemon","Small round and yellow"}
+                // could be bigger, but it's not a fruit knowledge contest, and I'm too lazy to fill that out)
         };
         return pullOfWordsToGuess[new Random().nextInt(0, pullOfWordsToGuess.length)];
     }
@@ -197,16 +211,16 @@ public class GuessWordGame {
     }
 
     public static void showGreetingMessage() {
-        System.out.println("Welcome to Guess game...");
-        System.out.println("Here's the rules:");
+        System.out.println(ANSI_GREEN + "Welcome to Guess game...");
+        System.out.println(ANSI_YELLOW + "Here's the rules:");
         System.out.println("~ You must guess a hidden word.");
         System.out.println("~ You can choose your own word or get random one.");
         System.out.println("~ You can win either by guessing letters or the whole word.");
-        System.out.println("-------------------------------------------------------------------");
-        System.out.println("The game has two game modes:");
-        System.out.println("The first one - mode were you play on your own.");
+        System.out.println(ANSI_RESET + "-------------------------------------------------------------------");
+        System.out.println(ANSI_GREEN + "The game has two game modes:");
+        System.out.println(ANSI_YELLOW + "The first one - mode were you play on your own.");
         System.out.println("The second one - mode were you compete with THE GREATEST AI");
-        System.out.println("Which one do you like to start?... ");
+        System.out.println(ANSI_GREEN + "Which one do you like to start?... ");
     }
 
     public static void showWord(char[] hiddenWord) {

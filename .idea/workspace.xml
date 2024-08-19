@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="deleted warnings">
-      <change afterPath="$PROJECT_DIR$/src/GuessWordGame.java" afterDir="false" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Loading my Guess Word Game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ATMMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreditCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMSHomework6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessWordGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessWordGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GuessWordGame.executor": "Run",
-    "Application.TMSHomework.executor": "Run",
-    "Application.TMSHomework3.executor": "Run",
-    "Application.TMSHomework4.executor": "Run",
-    "Application.TMSHomework5.executor": "Run",
-    "Application.TMSHomework6.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "GuessWordGame",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GuessWordGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework6.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;GuessWordGame&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.GuessWordGame">
     <configuration name="GuessWordGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessWordGame" />
@@ -168,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723974668919</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Loading my Guess Word Game">
+      <option name="closed" value="true" />
+      <created>1724012786923</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724012786923</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Loading my Guess Word Game">
+      <option name="closed" value="true" />
+      <created>1724013032658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724013032658</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,7 +191,8 @@
     <MESSAGE value="Fixed negative input for the last task" />
     <MESSAGE value="Solved homework for lesson 6" />
     <MESSAGE value="deleted warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted warnings" />
+    <MESSAGE value="Loading my Guess Word Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading my Guess Word Game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
