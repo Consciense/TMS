@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Loading my Guess Word Game">
-      <change afterPath="$PROJECT_DIR$/src/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clinic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Created patient class">
+      <change afterPath="$PROJECT_DIR$/src/Dentist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MedicalStaff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Surgeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Therapist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMSHomework.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724013032658</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created patient class">
+      <option name="closed" value="true" />
+      <created>1724183649112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724183649112</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +204,7 @@
     <MESSAGE value="Solved homework for lesson 6" />
     <MESSAGE value="deleted warnings" />
     <MESSAGE value="Loading my Guess Word Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loading my Guess Word Game" />
+    <MESSAGE value="Created patient class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created patient class" />
   </component>
 </project>
