@@ -3,10 +3,12 @@
 public class Patient {
     private String name;
     private int treatmentPlan;
+    private String treatingDoctor;
 
-    Patient(String name, int treatmentPlan) {
+    Patient(String name, int treatmentPlan, String treatingDoctor) {
         this.name = name;
         this.treatmentPlan = treatmentPlan;
+        this.treatingDoctor = treatingDoctor;
     }
 
     public int getTreatmentPlan() {
@@ -15,6 +17,14 @@ public class Patient {
 
     public String getName() {
         return name;
+    }
+
+    public String getTreatingDoctor() {
+        return treatingDoctor;
+    }
+
+    public void setTreatingDoctor(String treatingDoctor) {
+        this.treatingDoctor = treatingDoctor;
     }
 
     public void setName(String name) {
