@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Fixed patient class">
-      <change afterPath="$PROJECT_DIR$/src/Dentist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Surgeon.java" afterDir="false" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Added Dentist logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clinic.java" afterDir="false" />
@@ -212,7 +210,31 @@
       <option name="project" value="LOCAL" />
       <updated>1724186030440</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Therapist logic">
+      <option name="closed" value="true" />
+      <created>1724249045282</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724249045282</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Surgeon logic">
+      <option name="closed" value="true" />
+      <created>1724249093153</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724249093153</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Dentist logic">
+      <option name="closed" value="true" />
+      <created>1724249110237</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724249110237</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,6 +248,9 @@
     <MESSAGE value="Created patient class" />
     <MESSAGE value="Added medStuff and therapist class" />
     <MESSAGE value="Fixed patient class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed patient class" />
+    <MESSAGE value="Added Therapist logic" />
+    <MESSAGE value="Added Surgeon logic" />
+    <MESSAGE value="Added Dentist logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Dentist logic" />
   </component>
 </project>

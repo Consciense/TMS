@@ -1,7 +1,7 @@
 public class MedicalStaff {
     private String profession;
 
-    MedicalStaff(){
+    MedicalStaff() {
         this.profession = "Doctor";
     }
 
@@ -9,11 +9,12 @@ public class MedicalStaff {
         this.profession = profession;
     }
 
-    public String getProfession(){
+    public String getProfession() {
         return this.profession;
     }
-    public void treatPatient(Patient patient){
-        System.out.println(this.profession + "start's treatment of" + patient.getName() + "...");
+
+    public void treatPatient(Patient patient) {
+        System.out.println(getProfession() + " starts treatment of " + patient.getName() + "...");
         System.out.println("Asks how " + patient.getName() + " feeling himself.");
     }
 }

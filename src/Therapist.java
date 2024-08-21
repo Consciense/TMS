@@ -6,8 +6,7 @@ public class Therapist extends MedicalStaff {
             System.out.println(patient.getName() + " is going to the surgeon.");
             patient.setTreatingDoctor("Surgeon");
 
-        }
-        if (patient.getTreatmentPlan() == 2) {
+        } else if (patient.getTreatmentPlan() == 2) {
             System.out.println(patient.getName() + " is going to the dentist.");
             patient.setTreatingDoctor("Dentist");
         } else {
