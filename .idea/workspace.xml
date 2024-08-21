@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Created patient class">
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Fixed patient class">
       <change afterPath="$PROJECT_DIR$/src/Dentist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MedicalStaff.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Surgeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Therapist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clinic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedicalStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedicalStaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Therapist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Therapist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.GuessWordGame.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.TMSHomework.executor": "Run",
     "Application.TMSHomework3.executor": "Run",
     "Application.TMSHomework4.executor": "Run",
@@ -66,7 +69,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GuessWordGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessWordGame" />
       <module name="TMS" />
@@ -74,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TMSHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TMSHomework" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TMS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.GuessWordGame" />
         <item itemvalue="Application.TMSHomework6" />
         <item itemvalue="Application.TMSHomework4" />
         <item itemvalue="Application.TMSHomework3" />
-        <item itemvalue="Application.TMSHomework" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724183649112</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added medStuff and therapist class">
+      <option name="closed" value="true" />
+      <created>1724185996581</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724185996581</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed patient class">
+      <option name="closed" value="true" />
+      <created>1724186030440</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724186030440</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,6 +224,8 @@
     <MESSAGE value="deleted warnings" />
     <MESSAGE value="Loading my Guess Word Game" />
     <MESSAGE value="Created patient class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created patient class" />
+    <MESSAGE value="Added medStuff and therapist class" />
+    <MESSAGE value="Fixed patient class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed patient class" />
   </component>
 </project>
