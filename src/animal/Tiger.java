@@ -3,8 +3,8 @@ package animal;
 public class Tiger extends Animal{
 
 
-    Tiger(String name, String animalType) {
-        super("Tiger");
+    Tiger(String animalType) {
+        super(animalType);
     }
 
     @Override
