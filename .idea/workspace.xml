@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="Added Dentist logic">
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="deleted comment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clinic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MedicalStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedicalStaff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Therapist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Therapist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lesson8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,20 +50,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GuessWordGame.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.TMSHomework.executor": "Run",
-    "Application.TMSHomework3.executor": "Run",
-    "Application.TMSHomework4.executor": "Run",
-    "Application.TMSHomework5.executor": "Run",
-    "Application.TMSHomework6.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Lesson7",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GuessWordGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework6.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Lesson7&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="GuessWordGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessWordGame" />
@@ -106,10 +103,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.GuessWordGame" />
         <item itemvalue="Application.TMSHomework6" />
         <item itemvalue="Application.TMSHomework4" />
         <item itemvalue="Application.TMSHomework3" />
+        <item itemvalue="Application.GuessWordGame" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +231,31 @@
       <option name="project" value="LOCAL" />
       <updated>1724249110237</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finished 1st task">
+      <option name="closed" value="true" />
+      <created>1724264506380</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264506380</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Finished 1st task">
+      <option name="closed" value="true" />
+      <created>1724264510919</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264510919</updated>
+    </task>
+    <task id="LOCAL-00017" summary="deleted comment">
+      <option name="closed" value="true" />
+      <created>1724264952172</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264952172</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,6 +272,8 @@
     <MESSAGE value="Added Therapist logic" />
     <MESSAGE value="Added Surgeon logic" />
     <MESSAGE value="Added Dentist logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Dentist logic" />
+    <MESSAGE value="Finished 1st task" />
+    <MESSAGE value="deleted comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted comment" />
   </component>
 </project>
