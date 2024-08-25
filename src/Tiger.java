@@ -1,5 +1,3 @@
-package animal;
-
 public class Tiger extends Animal{
 
 
@@ -17,7 +15,7 @@ public class Tiger extends Animal{
     public void eat(String food) {
         super.eat(food);
         System.out.println("Your food looks back...");
-        if (food.equals("Meat")) {
+        if (food.equals("Meat") || food.equals("meat")) {
             System.out.println("Tiger starts to eat.");
             voice(true);
         } else {

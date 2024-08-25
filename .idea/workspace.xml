@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="creating project">
-      <change afterPath="$PROJECT_DIR$/src/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Tiger.java" afterDir="false" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="created classes for 1st task">
+      <change afterPath="$PROJECT_DIR$/src/AnimalTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HiddenDog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rabbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnimalTestDrive.executor": "Run",
     "Application.GuessWordGame.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TMSHomework.executor": "Run",
@@ -63,11 +66,19 @@
     "Application.TMSHomework5.executor": "Run",
     "Application.TMSHomework6.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Lesson8",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.AnimalTestDrive">
+    <configuration name="AnimalTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnimalTestDrive" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuessWordGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessWordGame" />
       <module name="TMS" />
@@ -77,13 +88,6 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="TMS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TMSHomework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TMSHomework3" />
       <module name="TMS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalTestDrive" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.GuessWordGame" />
         <item itemvalue="Application.TMSHomework6" />
         <item itemvalue="Application.TMSHomework4" />
-        <item itemvalue="Application.TMSHomework3" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +246,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724581289890</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="created classes for 1st task">
+      <option name="closed" value="true" />
+      <created>1724597794107</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724597794107</updated>
+    </task>
+    <task id="LOCAL-00017" summary="created classes for 1st task">
+      <option name="closed" value="true" />
+      <created>1724597880178</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724597880178</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,6 +280,7 @@
     <MESSAGE value="Added Surgeon logic" />
     <MESSAGE value="Added Dentist logic" />
     <MESSAGE value="creating project" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating project" />
+    <MESSAGE value="created classes for 1st task" />
+    <option name="LAST_COMMIT_MESSAGE" value="created classes for 1st task" />
   </component>
 </project>

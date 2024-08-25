@@ -1,5 +1,3 @@
-package animal;
-
 public class Animal {
     String animalType;
 
@@ -12,6 +10,6 @@ public class Animal {
     }
 
     public void eat(String food) {
-        System.out.println(this.animalType + "looks at your food...");
+        System.out.println(this.animalType + " looks at your food...");
     }
 }

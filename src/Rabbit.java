@@ -1,6 +1,4 @@
-package animal;
-
-public class Rabbit extends Animal{
+public class Rabbit extends Animal {
 
 
     Rabbit(String animalType) {
@@ -16,12 +14,12 @@ public class Rabbit extends Animal{
     @Override
     public void eat(String food) {
         super.eat(food);
-        if (food.equals("Meat")) {
-            System.out.println("Rabbit is not happy about that... \n Slowly walks away...");
-            voice(false);
-        } else {
+        if (food.equals("Grass") || food.equals("grass")) {
             System.out.println("Rabbit starts chewing your grass...");
             voice(true);
+        } else {
+            System.out.println("Rabbit is not happy about that... \n Slowly walks away...");
+            voice(false);
         }
     }
 
