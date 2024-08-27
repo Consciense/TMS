@@ -1,18 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="created classes for 1st task">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task1/Accountant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task1/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task1/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task1/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TMSHomework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Consciense&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Consciense/TMS.git&quot;,
+    &quot;accountId&quot;: &quot;26c92f87-cc4c-4124-bcb1-9af354c89976&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2kLBz41R1dOKJwza3kFbV9AK4IE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,11 +64,66 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnimalTestDrive.executor": "Run",
+    "Application.GuessWordGame.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.TMSHomework.executor": "Run",
+    "Application.TMSHomework3.executor": "Run",
+    "Application.TMSHomework4.executor": "Run",
+    "Application.TMSHomework5.executor": "Run",
+    "Application.TMSHomework6.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Lesson9",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TMSHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMSHomework" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TMSHomework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMSHomework3" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TMSHomework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMSHomework4" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TMSHomework6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMSHomework6" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TMSHomework6" />
+        <item itemvalue="Application.TMSHomework4" />
+        <item itemvalue="Application.TMSHomework3" />
+        <item itemvalue="Application.TMSHomework" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,6 +133,161 @@
       <option name="presentableId" value="Default" />
       <updated>1723053237582</updated>
     </task>
+    <task id="LOCAL-00001" summary="Deleting comments">
+      <option name="closed" value="true" />
+      <created>1723053539355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723053539355</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added branch for next task">
+      <option name="closed" value="true" />
+      <created>1723053727215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723053727215</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Loading solution to the homework">
+      <option name="closed" value="true" />
+      <created>1723054040065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723054040065</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed negative input for the last task">
+      <option name="closed" value="true" />
+      <created>1723736070536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723736070536</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Solved homework for lesson 6">
+      <option name="closed" value="true" />
+      <created>1723974592837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723974592837</updated>
+    </task>
+    <task id="LOCAL-00006" summary="deleted warnings">
+      <option name="closed" value="true" />
+      <created>1723974668919</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723974668919</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Loading my Guess Word Game">
+      <option name="closed" value="true" />
+      <created>1724012786923</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724012786923</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Loading my Guess Word Game">
+      <option name="closed" value="true" />
+      <created>1724013032658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724013032658</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created patient class">
+      <option name="closed" value="true" />
+      <created>1724183649112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724183649112</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added medStuff and therapist class">
+      <option name="closed" value="true" />
+      <created>1724185996581</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724185996581</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed patient class">
+      <option name="closed" value="true" />
+      <created>1724186030440</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724186030440</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Therapist logic">
+      <option name="closed" value="true" />
+      <created>1724249045282</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724249045282</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Surgeon logic">
+      <option name="closed" value="true" />
+      <created>1724249093153</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724249093153</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Dentist logic">
+      <option name="closed" value="true" />
+      <created>1724249110237</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724249110237</updated>
+    </task>
+    <task id="LOCAL-00015" summary="creating project">
+      <option name="closed" value="true" />
+      <created>1724581289890</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724581289890</updated>
+    </task>
+    <task id="LOCAL-00016" summary="created classes for 1st task">
+      <option name="closed" value="true" />
+      <created>1724597794107</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724597794107</updated>
+    </task>
+    <task id="LOCAL-00017" summary="created classes for 1st task">
+      <option name="closed" value="true" />
+      <created>1724597880178</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724597880178</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deleting comments" />
+    <MESSAGE value="Added branch for next task" />
+    <MESSAGE value="Loading solution to the homework" />
+    <MESSAGE value="Fixed negative input for the last task" />
+    <MESSAGE value="Solved homework for lesson 6" />
+    <MESSAGE value="deleted warnings" />
+    <MESSAGE value="Loading my Guess Word Game" />
+    <MESSAGE value="Created patient class" />
+    <MESSAGE value="Added medStuff and therapist class" />
+    <MESSAGE value="Fixed patient class" />
+    <MESSAGE value="Added Therapist logic" />
+    <MESSAGE value="Added Surgeon logic" />
+    <MESSAGE value="Added Dentist logic" />
+    <MESSAGE value="creating project" />
+    <MESSAGE value="created classes for 1st task" />
+    <option name="LAST_COMMIT_MESSAGE" value="created classes for 1st task" />
   </component>
 </project>
