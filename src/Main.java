@@ -1,10 +1,4 @@
 
-//Задача 1:
-//Создать классы "Директор", "Рабочий", "Бухгалтер". Реализовать интерфейс с методом,
-//который печатает название должности и имплементировать этот метод в созданные
-//классы.
-
-
 //Задача 2:
 //Написать иерархию классов Фигура, Треугольник, Прямоугольник, Круг. Реализовать
 //функцию подсчета площади для каждого типа фигуры и подсчет периметра(используя абстрактный класс/методы).
@@ -14,10 +8,12 @@
 //Самостоятельно изучить и показать пример работы интерфейса-маркера Cloneable.
 
 import task1.*;
+import task2.*;
 
 public class Main {
     public static void main(String[] args) {
         showInterfaceExample();
+        showFiguresExample();
     }
 
     public static void showInterfaceExample() {
@@ -26,11 +22,28 @@ public class Main {
                 new Accountant("Elena"),
                 new Worker("Alexander")
         };
-        for (Person person : people){
+        for (Person person : people) {
             person.showRole();
             person.doSomeWork();
             System.out.println("--------------------------------------------------------");
         }
     }
 
+    public static void showFiguresExample (){
+        double sumOfPerimeters = 0;
+
+        Figure[] figures = new Figure[]{
+               new Triangle(3,4,5),
+                new Circle(35),
+                new Rectangle(25,15),
+                new Circle(7),
+                new Triangle(12,12,12),
+        };
+        for (Figure figure : figures){
+            System.out.println(figure);
+            sumOfPerimeters += figure.getPerimeter();
+            System.out.println("---------------------------------------------------------");
+        }
+        System.out.println("Total perimeter of shapes equals: " + sumOfPerimeters);
+    }
 }

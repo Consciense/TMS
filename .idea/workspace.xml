@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="created classes for 1st task">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Accountant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Worker.java" afterDir="false" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="finished task 1">
+      <change afterPath="$PROJECT_DIR$/src/task2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMSHomework.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -269,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724597880178</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="finished task 1">
+      <option name="closed" value="true" />
+      <created>1724790812876</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1724790812876</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,6 +288,7 @@
     <MESSAGE value="Added Dentist logic" />
     <MESSAGE value="creating project" />
     <MESSAGE value="created classes for 1st task" />
-    <option name="LAST_COMMIT_MESSAGE" value="created classes for 1st task" />
+    <MESSAGE value="finished task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished task 1" />
   </component>
 </project>
