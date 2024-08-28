@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="finished task 1">
-      <change afterPath="$PROJECT_DIR$/src/task2/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Triangle.java" afterDir="false" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="finished task 2">
+      <change afterPath="$PROJECT_DIR$/src/task3/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/Plant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -269,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724790812876</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="finished task 2">
+      <option name="closed" value="true" />
+      <created>1724836196753</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724836196753</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +295,7 @@
     <MESSAGE value="creating project" />
     <MESSAGE value="created classes for 1st task" />
     <MESSAGE value="finished task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished task 1" />
+    <MESSAGE value="finished task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished task 2" />
   </component>
 </project>

@@ -9,11 +9,13 @@
 
 import task1.*;
 import task2.*;
+import task3.*;
 
 public class Main {
     public static void main(String[] args) {
         showInterfaceExample();
         showFiguresExample();
+        showExampleOfCloneable();
     }
 
     public static void showInterfaceExample() {
@@ -29,21 +31,33 @@ public class Main {
         }
     }
 
-    public static void showFiguresExample (){
+    public static void showFiguresExample() {
         double sumOfPerimeters = 0;
 
         Figure[] figures = new Figure[]{
-               new Triangle(3,4,5),
+                new Triangle(3, 4, 5),
                 new Circle(35),
-                new Rectangle(25,15),
+                new Rectangle(25, 15),
                 new Circle(7),
-                new Triangle(12,12,12),
+                new Triangle(12, 12, 12),
         };
-        for (Figure figure : figures){
+        for (Figure figure : figures) {
             System.out.println(figure);
             sumOfPerimeters += figure.getPerimeter();
             System.out.println("---------------------------------------------------------");
         }
         System.out.println("Total perimeter of shapes equals: " + sumOfPerimeters);
+    }
+
+    public static void showExampleOfCloneable() {
+        Plant tree = new Plant("Oak", 50);
+        Document doc = new Document("Statement", "Blah blah blah...");
+
+        System.out.println(doc);
+        System.out.println(tree);
+
+        // Plant treeClone = tree.clone(); even if we override .clone method  -> ERROR
+        Document docClone = doc.clone();
+        System.out.println(docClone);
     }
 }
