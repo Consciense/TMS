@@ -17,6 +17,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
         solveTask1();
+        specialTask();
     }
 
     public static void solveTask1() throws CloneNotSupportedException {
@@ -57,6 +58,16 @@ public class Main {
                 return;
             }
         }
+    }
+
+    public static void specialTask() throws CloneNotSupportedException {
+        User user1 = new User("HolAn", "Anton", "Holub", 25);
+        System.out.println(user1);
+        User user2 = new User(user1);
+        System.out.println(user2);
+        user1.changeFields("Test", "Test", "Test", 0);
+        System.out.println(user1);
+        System.out.println(user2);
     }
 
     public static int findUserIndexByID(User[] arrayOdUsers, int id) {

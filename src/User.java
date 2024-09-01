@@ -2,13 +2,26 @@
 public final class User implements Cloneable {
     private static int userCounter;
     private Person person;
-    private final String nickname;
+    private String nickname;
     private final int userID;
 
-    User(String nickname, String name, String surname, int age) {
+    User (String nickname, String name, String surname, int age) {
         this.nickname = nickname;
-        person = new Person(name, surname, age);
+        this.person = new Person(name, surname, age);
         this.userID = createID();
+    }
+
+    User (User user) throws CloneNotSupportedException {
+        this.nickname = user.nickname;
+        this.person = user.person.clone();
+        this.userID = user.userID;
+    }
+
+    public void changeFields(String nickname, String name, String surname, int age){
+        this.nickname = nickname;
+        this.person.setName(name);
+        this.person.setAge(age);
+        this.person.setSurname(surname);
     }
 
     int getUserID() {
