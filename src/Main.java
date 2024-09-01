@@ -16,8 +16,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
-        solveTask1();
         specialTask();
+        solveTask1();
     }
 
     public static void solveTask1() throws CloneNotSupportedException {
