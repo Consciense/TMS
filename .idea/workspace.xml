@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="finished task 2">
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="created project">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Accountant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2/Figure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3/Plant.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +67,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnimalTestDrive.executor": "Run",
+    "Application.CloneTest.executor": "Run",
     "Application.GuessWordGame.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TMSHomework.executor": "Run",
@@ -66,15 +82,15 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CloneTest" />
       <module name="TMS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TMSHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TMSHomework" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TMS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,10 +120,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CloneTest" />
         <item itemvalue="Application.TMSHomework6" />
         <item itemvalue="Application.TMSHomework4" />
         <item itemvalue="Application.TMSHomework3" />
-        <item itemvalue="Application.TMSHomework" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724836196753</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="created project">
+      <option name="closed" value="true" />
+      <created>1725181521452</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725181521452</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -293,6 +317,7 @@
     <MESSAGE value="created classes for 1st task" />
     <MESSAGE value="finished task 1" />
     <MESSAGE value="finished task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished task 2" />
+    <MESSAGE value="created project" />
+    <option name="LAST_COMMIT_MESSAGE" value="created project" />
   </component>
 </project>
