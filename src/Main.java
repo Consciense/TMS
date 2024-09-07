@@ -30,17 +30,17 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("First of all you gotta input 3 strings for tasks 1 - 4, " +
                 "since we are to lazy to input it 4 times ");
-//        String[] arrayOfStrings = new String[]{
-//                StringOperations.getUserInput("Input your 1'st string: ").nextLine(),
-//                StringOperations.getUserInput("Input your 2'nd string: ").nextLine(),
-//                StringOperations.getUserInput("Input your 3'rd string: ").nextLine()
-//        };
-        // or we can skip inputting them =)
         String[] arrayOfStrings = new String[]{
-                "Your 1'st string (short)",
-                "Your 2'nd string (long one)",
-                "Your 3'rd string (middle)",
+                StringOperations.getUserInput("Input your 1'st string: ").nextLine(),
+                StringOperations.getUserInput("Input your 2'nd string: ").nextLine(),
+                StringOperations.getUserInput("Input your 3'rd string: ").nextLine()
         };
+        // or we can skip inputting them =)
+//        String[] arrayOfStrings = new String[]{
+//                "Your 1'st string (short)",
+//                "Your 2'nd string (long one)",
+//                "Your 3'rd string (middle)",
+//        };
         System.out.println("Your strings are:");
         StringOperations.showArrayOfStrings(arrayOfStrings);
         System.out.println("------------------------------------------------");
@@ -99,13 +99,6 @@ public class Main {
         StringOperations.duplicateLetters(stringToDuplicateLetters);
     }
 
-    //* Дана строка произвольной длины с произвольными словами. Написать программу для
-// * проверки является ли любое выбранное слово в строке палиндромом.
-// *
-// * Например, есть строка, вводится число 3, значит необходимо проверить является ли 3-е
-// * слово в этой строке палиндромом.
-// * Предусмотреть предупреждающие сообщения на случаи ошибочных ситуаций: например,
-//            * в строке 5 слов, а на вход программе передали число 500.
     public static void solveTask6() {
         String stringToGetWord = StringOperations.getUserInput("Input string to check for palindrome: ").nextLine();
         int selectedWord;
