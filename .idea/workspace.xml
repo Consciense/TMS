@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="swapped tasks">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_22_34_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_22_34__Changes_.xml" beforeDir="false" />
+    <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="deleted unuseful comments">
+      <change afterPath="$PROJECT_DIR$/src/ActionListenerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculateFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringOperations.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson10" />
+        <entry key="$PROJECT_DIR$" value="Lesson11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,13 +70,15 @@
     "Application.TMSHomework4.executor": "Run",
     "Application.TMSHomework5.executor": "Run",
     "Application.TMSHomework6.executor": "Run",
+    "Application.TestCalculator.executor": "Run",
+    "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson11",
+    "git-widget-placeholder": "Calculator",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestCalculator">
     <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CloneTest" />
       <module name="TMS" />
@@ -98,15 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TMSHomework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TMSHomework4" />
+    <configuration name="TestCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCalculator" />
       <module name="TMS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TMSHomework6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TMSHomework6" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="TMS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCalculator" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Homework11" />
         <item itemvalue="Application.CloneTest" />
-        <item itemvalue="Application.TMSHomework6" />
-        <item itemvalue="Application.TMSHomework4" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +317,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725209801710</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Completed task">
+      <option name="closed" value="true" />
+      <created>1725713008386</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1725713008386</updated>
+    </task>
+    <task id="LOCAL-00025" summary="deleted unuseful comments">
+      <option name="closed" value="true" />
+      <created>1725713124917</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1725713124917</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -340,6 +358,8 @@
     <MESSAGE value="Finished tasks" />
     <MESSAGE value="added special task from Archill" />
     <MESSAGE value="swapped tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="swapped tasks" />
+    <MESSAGE value="Completed task" />
+    <MESSAGE value="deleted unuseful comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted unuseful comments" />
   </component>
 </project>
