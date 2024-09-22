@@ -1,6 +1,0 @@
-docnum123123-26 (Document name contains unwanted symbols...)
-docnum12312312 (Incorrect document name length...)
-contract123423 (Incorrect document name length...)
-contract1234^34 (Document name contains unwanted symbols...)
-contrct1231231 (Incorrect document name length...)
-doc123123123 (Incorrect document name length...)

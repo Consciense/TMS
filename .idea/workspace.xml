@@ -5,17 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="completed task">
-      <change afterPath="$PROJECT_DIR$/src/DocumentValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Romeo and Julietta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RomeoAndJulietta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidationInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalsQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeleteDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShowMyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/correct.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/incorrect.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DocumentValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileOperations.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Signup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Verification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrongLoginException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrongPasswordException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Romeo and Julietta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomeoAndJulietta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidationInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson13" />
+        <entry key="$PROJECT_DIR$" value="Lesson14" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,6 +75,8 @@
     "Application.GuessWordGame.executor": "Run",
     "Application.Homework11.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MyArrayListTestDrive.executor": "Run",
+    "Application.ShowMyArrayList.executor": "Run",
     "Application.TMSHomework.executor": "Run",
     "Application.TMSHomework3.executor": "Run",
     "Application.TMSHomework4.executor": "Run",
@@ -78,14 +86,22 @@
     "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson14",
+    "git-widget-placeholder": "Lesson15",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mrjj9/IdeaProjects/TMS"
+    "last_opened_file_path": "C:/Users/mrjj9/IdeaProjects/TMS",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ShowMyArrayList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowMyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShowMyArrayList" />
       <module name="TMS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShowMyArrayList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestCalculator" />
       </list>
@@ -338,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726310512917</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="completed task">
+      <option name="closed" value="true" />
+      <created>1727003599659</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1727003599659</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -367,5 +392,16 @@
     <MESSAGE value="deleted unuseful comments" />
     <MESSAGE value="completed task" />
     <option name="LAST_COMMIT_MESSAGE" value="completed task" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyArrayList.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
