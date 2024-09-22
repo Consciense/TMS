@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="completed task">
-      <change afterPath="$PROJECT_DIR$/src/Signup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Verification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WrongLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WrongPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DocumentValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Romeo and Julietta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RomeoAndJulietta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidationInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActionListenerClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculateFromString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Signup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Verification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrongLoginException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrongPasswordException.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson12" />
+        <entry key="$PROJECT_DIR$" value="Lesson13" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +78,7 @@
     "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson13",
+    "git-widget-placeholder": "Lesson14",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mrjj9/IdeaProjects/TMS"
   }
@@ -329,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725903347925</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="completed task">
+      <option name="closed" value="true" />
+      <created>1726310512917</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1726310512917</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
