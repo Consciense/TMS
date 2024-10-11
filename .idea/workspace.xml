@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="completed task">
-      <change afterPath="$PROJECT_DIR$/src/PlasticCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Brackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FirstAndLastSymbols.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalsQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeleteDuplicates.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShowMyArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/University.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlasticCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson15" />
+        <entry key="$PROJECT_DIR$" value="Lesson17" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,33 +57,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnimalTestDrive.executor": "Run",
-    "Application.CloneTest.executor": "Run",
-    "Application.GuessWordGame.executor": "Run",
-    "Application.Homework11.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MyArrayListTestDrive.executor": "Run",
-    "Application.ShowMyArrayList.executor": "Run",
-    "Application.TMSHomework.executor": "Run",
-    "Application.TMSHomework3.executor": "Run",
-    "Application.TMSHomework4.executor": "Run",
-    "Application.TMSHomework5.executor": "Run",
-    "Application.TMSHomework6.executor": "Run",
-    "Application.TestCalculator.executor": "Run",
-    "Application.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson16",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mrjj9/IdeaProjects/TMS",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnimalTestDrive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuessWordGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Homework11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListTestDrive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShowMyArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TMSHomework6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Lesson16&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrjj9/IdeaProjects/TMS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice17" />
       <module name="TMS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,8 +114,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ShowMyArrayList" />
         <item itemvalue="Application.TestCalculator" />
+        <item itemvalue="Application.ShowMyArrayList" />
+        <item itemvalue="Application.Practice17" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727033980652</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="completed task">
+      <option name="closed" value="true" />
+      <created>1728412066238</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1728412066238</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
