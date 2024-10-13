@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273a1915-f16a-45b9-a330-01d676ebf31c" name="Changes" comment="completed task">
-      <change afterPath="$PROJECT_DIR$/src/PlasticCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Birthday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PositiveNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReversString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalsQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeleteDuplicates.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShowMyArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/University.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserInput.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
     "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson16",
+    "git-widget-placeholder": "Lesson17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mrjj9/IdeaProjects/TMS",
     "settings.editor.selected.configurable": "inlay.hints"
